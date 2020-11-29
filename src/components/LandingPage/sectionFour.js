@@ -4,8 +4,8 @@ const SectionFour = () =>{
     return(
         <>
         <section className="section_invest">  
-                <div className="container">
-                    <div className="row">
+                <div className="">
+                    <div className="row row_def">
                         <div className="col-lg-6">
                            
                         </div>
