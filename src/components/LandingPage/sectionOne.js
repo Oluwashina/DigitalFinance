@@ -74,20 +74,20 @@ const SectionOne = () =>{
 
                  <ul className="menu_list">
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/faq" style={{color: '#fff' ,fontWeight: 600}}>FAQs</NavLink>
+                        <NavLink className="nav-link" to="/faq" style={{color: '#fff' ,fontWeight: 500}}>FAQs</NavLink>
                     </li>
                     <li className="nav-item px-lg-2">
-                        <NavLink className="nav-link" to="/terms" style={{color: '#fff', fontWeight: 600}}>Terms and Conditions</NavLink>
+                        <NavLink className="nav-link" to="/terms" style={{color: '#fff', fontWeight: 500}}>Terms and Conditions</NavLink>
                     </li>
                     
                     <li className="nav-item px-lg-4">
-                        <NavLink className="nav-link" to="/" style={{color: '#fff', fontWeight: 600,
+                        <NavLink className="nav-link" to="/" style={{color: '#fff', fontWeight: 500,
                          border: '1px solid #fff', width: 143, height: 44, textAlign: 'center'}}
                          >Sign Up</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link login" to="/" style={{color: '#dd0000', backgroundColor: '#fff',
-                        width: 143, height: 44, fontWeight: 600, textAlign: 'center'}}>Login</NavLink>
+                        width: 143, height: 44, fontWeight: 500, textAlign: 'center'}}>Login</NavLink>
                     </li>
                 </ul>
                      

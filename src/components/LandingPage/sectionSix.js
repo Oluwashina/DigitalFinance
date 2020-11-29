@@ -6,7 +6,7 @@ const SectionSix = () =>{
     return(
         <>
          <section>
-                <div className="container section_loan">
+                <div className=" section_loan">
                     <div className="loan_bg" >
                         <div className="row row_def">
                             <div className="col-lg-6 loan_heading">
@@ -19,7 +19,7 @@ const SectionSix = () =>{
                                 </div>
                             </div>
                             <div className="col-lg-6">
-                                <div className="">
+                                <div className="text-center">
                                     <img alt="loan" src="img/loans.png" className="img-fluid" />
                                 </div>
                             </div>
