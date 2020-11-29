@@ -105,8 +105,13 @@ p{
 }
 
 .hero_contain{
-  padding: 100px 80px 70px 80px;
+  padding: 130px 80px 70px 80px;
 }
+
+.img_hero{
+  margin-top: 80px;
+}
+
 
 .text_width{
   width: 600px;
@@ -253,16 +258,18 @@ p{
 
 
 /* media query for large screens*/
-@media (min-width: 1600px){
+/* media query for large screens*/
+@media (min-width: 1400px){
   .hero_contain{
       padding: 200px 80px 80px 80px;
-      height: 629px; 
+  }
+  .img_hero{
+      margin-top: 0px;
   }
 }
 
 @media (min-width: 1900px){
 .hero_contain {
       padding: 200px 80px 80px 80px;
-      height: 744px;
   }
 }

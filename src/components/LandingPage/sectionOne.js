@@ -10,8 +10,9 @@ const SectionOne = () =>{
         {/* Header section */}
      <div className="row row_def">
          <div className="col-lg-6 column_def">
-                 <div className="left_column">
 
+         <div style={{background: 'rgba(179, 179, 179, 0.1)', height: '100%'}}>
+                 <div className="left_column" style={{backgroundColor: '#fff'}}>
                      <nav className="navbar navbar-expand-lg navbar-light" style={{padding: 0}}>
                             <Link className="navbar-brand" to="/">
                                 <img src="img/logo.png" className="d-inline-block align-top" alt="" loading="lazy" />
@@ -49,7 +50,7 @@ const SectionOne = () =>{
 
 
               {/* Title section */}
-              <div style={{background: 'rgba(179, 179, 179, 0.1)'}}>
+              <div>
                  <div className="hero_contain">
                      <h1 style={{color: '#121212', fontWeight: 500, lineHeight: '52px'}}>Your Pathway to financial future</h1>
                      <p className="mt-4 faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
@@ -67,9 +68,10 @@ const SectionOne = () =>{
                  </div>
                 
              </div>
+             </div>
          </div>
          <div className="col-lg-6 column_def d-none d-md-none d-lg-block">
-             <div style={{backgroundImage: `url(${head_bg})`, backgroundSize: 'cover'}}>
+             <div style={{backgroundImage: `url(${head_bg})`, backgroundSize: 'cover',  height: '100%'}}>
                  <div className="">
 
                  <ul className="menu_list">
@@ -94,7 +96,7 @@ const SectionOne = () =>{
                  </div>
                 
 
-                 <div className="pt-4">
+                 <div className="img_hero">
                  <img alt="" src="img/woman.png" className="img-fluid" style={{marginLeft: -80}} />
                  </div>
                  
