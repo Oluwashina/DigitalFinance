@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+
+// Import fonts for use
+import './fonts/Geometr415MdBTMedium.ttf';
+import './fonts/geometric415mediumbt.ttf'
+import './fonts/futura/Futura Book font.ttf'
+import './fonts/futura/Futura Bold font.ttf'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

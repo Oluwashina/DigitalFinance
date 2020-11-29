@@ -1,13 +1,250 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Geometr';
+  src: local('Geometr'), url(./fonts/Geometr415MdBTMedium.ttf);
+}
+
+@font-face{
+  font-family: 'Futura';
+  src: local('Futura'), url(./fonts/futura/Futura\ Book\ font.ttf);
+}
+
+/* body{
+  font-family: 'Geometr';
+} */
+
+
+/* Hamburger styles */
+.navbar-toggler {
+  float: right;
+  border: none;
+  padding-right: 0;
+}
+
+.navbar-toggler:active, .navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 1px solid #777;
+  transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after, .navbar-light .navbar-toggler-icon:before {
+  width: 24px;
+  position: absolute;
+  height: 1px;
+  background-color: #777;
+  top: 0;
+  left: 0;
+  content: '';
+  z-index: 2;
+  transition: all 300ms linear;
+}
+
+.navbar-light .navbar-toggler-icon:after {
+  top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  transform: translateY(8px) rotate(-45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  border-color: transparent;
+}
+
+/* end of hamburger styles */
+
+.nav-link{
+  font-family: 'Futura';
+}
+
+h3{
+  font-family: 'Geometr';
+}
+
+h1{
+  font-family: 'Geometr';
+}
+
+p{
+  font-family: 'Futura';
+}
+
+/* Section Styles */
+
+.row_def{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.column_def{
+  margin-left: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+  position: relative
+}
+
+.left_column{
+   padding: 25px 0px 20px 80px;
+}
+
+.hero_contain{
+  padding: 100px 80px 70px 80px;
+}
+
+.text_width{
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section_save{
+  padding: 100px 40px;
+}
+
+.section_simplify{
+  padding: 200px 60px 150px 150px;
+}
+.section_loan{
+  padding: 60px 0px 60px 0px;
+}
+
+.section_invest{
+  background-color: #383838; 
+  background-image: url("./components/LandingPage/img/phone1.png");
+   background-repeat: no-repeat;
+}
+
+.invest_heading{
+  padding: 180px 80px;
+}
+.loan_heading{
+  padding: 100px 0px 0px 80px;
+}
+.loan_bg{
+  background-image: url("./components/LandingPage/img/redbg.png");
+   background-size: cover; 
+   border-radius: 5px;
+}
+
+.payment_design{
+  background-color: rgba(179, 179, 179, 0.3); 
+  padding-top: 120px;
+   padding-bottom: 120px;
+}
+
+.menu_list{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   padding: 25px 30px;
+}
+
+.btn-create{
+   background: #dd0000;
+   color: #fff;
+   border: 1px solid #dd0000;
+   border-radius: 3px;
+   font-weight: 500;
+   line-height: 15px;
+   padding: 20px 90px;
+   font-family: 'Futura';
+}
+
+/* End of section styles */
+
+
+
+
+
+/* FAQ styles */
+.faq_question{
+  color: #121212;
+  font-weight: 500;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: 'Geometr';
+}
+.faq_answer{
+  color: #516c82;
+  font-weight: 580;
+  line-height: 24px;
+  font-family: 'Futura';
+}
+/* end of FAQ page styles */
+
+
+/* Medis Query styles */
+@media (max-width: 768px){
+    .left_column{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .hero_contain{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 50px 40px 50px 40px;
+    }
+    .text_width{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section_save{
+        padding: 50px 40px 50px 40px;
+    }
+    .section_simplify{
+        padding: 50px 40px 50px 40px;
+    }
+    .section_loan{
+        padding: 0px;
+    }
+    .section_invest{
+        background-color: #383838; 
+        background-image: none;
+     }
+     .invest_heading{
+        padding: 50px 40px 50px 40px;
+    }
+
+    .loan_heading{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 40px 10px 40px;
+     }
+     .loan_bg{
+        background-image: url("./components/LandingPage/img/redbg.png");
+         background-size: cover; 
+         border-radius: 5px;
+     }
+     .playstore{
+         width: 149px;
+         height: 55px;
+     }
+     .payment_design{
+        background-color: rgba(179, 179, 179, 0.3); 
+        padding-top: 50px;
+         padding-bottom: 50px;
+     }
 }
