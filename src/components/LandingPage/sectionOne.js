@@ -61,8 +61,8 @@ const SectionOne = () =>{
 
                      {/* link to download - appstore and playstore */}
                          <div className="mt-4" style={{display: 'flex'}}>
-                            <img alt="" src="img/appstore.png" className="img-fluid" /> 
-                            <img alt="" src="img/googlestore.png" className="img-fluid ml-2" /> 
+                            <img alt="" src="img/Appstore.svg" className="img-fluid" /> 
+                            <img alt="" src="img/Googleplay.svg" className="img-fluid ml-2" /> 
                          </div>
 
                  </div>

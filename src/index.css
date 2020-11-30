@@ -132,12 +132,21 @@ p{
 
 .section_invest{
   background-color: #383838; 
-  background-image: url("./components/LandingPage/img/phone1.png");
+  background-image: url("./components/LandingPage/img/path.png");
    background-repeat: no-repeat;
+   background-position: bottom;
+}
+.invest_image{
+  width: 478px; 
+  height: 641px;
+  margin-top: 30px;
 }
 
 .invest_heading{
   padding: 180px 80px;
+}
+.invest-align{
+  text-align: right;
 }
 .loan_heading{
   padding: 100px 0px 0px 80px;
@@ -198,6 +207,10 @@ p{
 
 /* Medis Query styles */
 @media (max-width: 768px){
+  .invest_image{
+    width: 100%;
+    height: auto;
+}
     .left_column{
         width: 100%;
         padding-right: 30px;
@@ -230,7 +243,10 @@ p{
         background-image: none;
      }
      .invest_heading{
-        padding: 50px 40px 50px 40px;
+        padding: 30px 40px 50px 40px;
+    }
+    .invest-align{
+      text-align: right;
     }
 
     .loan_heading{
@@ -271,5 +287,8 @@ p{
 @media (min-width: 1900px){
 .hero_contain {
       padding: 200px 80px 80px 80px;
+  }
+  .invest-align{
+    text-align: center;
   }
 }

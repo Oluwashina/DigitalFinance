@@ -7,7 +7,9 @@ const SectionFour = () =>{
                 <div className="">
                     <div className="row row_def">
                         <div className="col-lg-6">
-                           
+                            <div class="invest-align">
+                                <img alt="phone" src="img/Phone1.png" className="invest_image" /> 
+                            </div>
                         </div>
                         <div className="col-lg-6 invest_heading">
                            <h1  style={{lineHeight: '52px', color: '#fff', fontWeight: 500}}>Save, Invest and Grow Automatically</h1>

@@ -14,8 +14,8 @@ const SectionSix = () =>{
                                 <p className="mt-4 faq_answer" style={{color: '#fbfbfb'}}>Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
                                 {/* <!-- link to download - appstore and playstore --> */}
                                 <div className="mt-5" style={{display: 'flex'}}>
-                                    <a href="https://google.com"><img alt="appstore" src="img/appstore.png" className="img-fluid playstore" /></a> 
-                                    <a href="https://google.com"><img alt="playstore" src="img/googlestore.png" className="img-fluid ml-2 playstore" /></a> 
+                                    <a href="https://google.com"><img alt="appstore" src="img/Appstore.svg" className="img-fluid playstore" /></a> 
+                                    <a href="https://google.com"><img alt="playstore" src="img/Googleplay.svg" className="img-fluid ml-2 playstore" /></a> 
                                 </div>
                             </div>
                             <div className="col-lg-6">
