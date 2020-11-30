@@ -20,7 +20,7 @@ const SectionThree = () =>{
                             </div>
                         </div>
                         <div className="col-lg-5 column_def">
-                            <div style={{backgroundImage: `url(${faded_bg})`, backgroundSize: 'cover'}}>
+                            <div  style={{backgroundImage: `url(${faded_bg})`, backgroundSize: 'cover'}}>
                                 <img alt="phone" src="img/shutterstock.png" className="img-fluid" />
                             </div>
                         </div>

@@ -56,13 +56,13 @@ const SectionOne = () =>{
                      <p className="mt-4 faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
 
                      <div className="mt-5">
-                         <button className="btn-create">Create an Account</button>
+                         <button className="btn btn-create">Create an Account</button>
                      </div>
 
                      {/* link to download - appstore and playstore */}
                          <div className="mt-4" style={{display: 'flex'}}>
-                            <img alt="" src="img/Appstore.svg" className="img-fluid" /> 
-                            <img alt="" src="img/Googleplay.svg" className="img-fluid ml-2" /> 
+                            <a href="https://google.com"><img alt="" src="img/Appstore.svg" className="img-fluid" /></a> 
+                            <a href="https://google.com"><img alt="" src="img/Googleplay.svg" className="img-fluid ml-2" /></a> 
                          </div>
 
                  </div>
