@@ -8,7 +8,7 @@ const SectionFour = () =>{
                     <div className="row row_def">
                         <div className="col-lg-6">
                             <div class="invest-align">
-                                <img alt="phone" src="img/Phone1.png" className="invest_image" /> 
+                                <img alt="phone" src="img/Phone.svg" className="invest_image" /> 
                             </div>
                         </div>
                         <div className="col-lg-6 invest_heading">
