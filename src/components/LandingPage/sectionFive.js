@@ -9,7 +9,7 @@ const SectionFive = () =>{
                     <div className="row row_def">
                         <div className="col-lg-7 column_def" style={{backgroundColor: 'rgba(179, 179, 179, 0.1)'}}>
                             <div className="section_simplify">
-                                <h1  data-aos="fade-right" style={{lineHeight: '52px', color: '#121212', fontWeight: 500}}>Getting quick loans <br /> just got easier</h1>
+                                <h1 data-aos="fade-right" style={{lineHeight: '52px', color: '#121212', fontWeight: 500}}>Getting quick loans <br /> just got easier</h1>
                                 <p className="mt-4 faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest  possible cost with Carbon.</p>
 
                                 <div className="mt-4" style={{display: 'flex'}}> 
@@ -24,7 +24,7 @@ const SectionFive = () =>{
 
                                 <div className="container">
                                 
-                                    <div className="text-center"  data-aos="fade-left">
+                                    <div className="text-center"  data-aos="fade-right">
                                         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                                             <div>
                                                 <p style={{background: '#fff', color: '#0a2e65', borderRadius: '3px', fontWeight: 500, border: '1px solid #dd0000', padding: '15px 15px'}}>N 10,000</p>
