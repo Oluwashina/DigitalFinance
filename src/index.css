@@ -217,6 +217,45 @@ p{
 /* end of FAQ page styles */
 
 
+/* style for back to top button */
+.to-top-container #toTop {
+  border-radius: 6px 6px 0 0;
+}
+.to-top-right #toTop {
+  right: 30px;
+}
+#toTop {
+  background-color: #333;
+  border-radius: 4px 4px 0 0;
+  bottom: 0;
+  display: none;
+  height: 35px;
+  position: fixed;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  opacity: .9;
+  z-index: 100000;
+  transition: all .2s ease-in-out 0s;
+  animation: fadeIn 0.3s;
+  line-height: 1;
+}
+
+#toTop:hover{
+  background-color: #dd0000;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+
+
 /* Medis Query styles */
 @media (max-width: 768px){
   
