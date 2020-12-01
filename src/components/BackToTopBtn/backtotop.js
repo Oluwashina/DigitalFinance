@@ -23,9 +23,7 @@ function ScrollButton(){
     return(
         <>
             <div className="to-top-container to-top-right">
-                <a href="#" id="toTop" style={{display: showScroll ? 'flex' : 'none'}}>
-                    <span className="mdi mdi-chevron-up" onClick={scrollTop} style={{fontSize: 26, color: '#fff'}}></span>
-                </a>
+                    <span className="mdi mdi-chevron-up" onClick={scrollTop}  id="toTop" style={{fontSize: 26, color: '#fff', cursor: 'pointer', display: showScroll ? 'flex' : 'none'}}></span>
             </div>
         </>
     )
