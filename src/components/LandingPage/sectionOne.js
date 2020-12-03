@@ -1,7 +1,7 @@
 import React from 'react'
 import head_bg from './img/head_bg.png'
 import {Link, NavLink} from 'react-router-dom'
-import {motion} from 'framer-motion'
+// import {motion} from 'framer-motion'
 
 
 const SectionOne = () =>{
@@ -53,10 +53,9 @@ const SectionOne = () =>{
               {/* Title section */}
               <div>
                  <div className="hero_contain">
-                     <motion.h1
-                     animate={{fontSize: 50, color: '#dd0000'}}
+                     <h1
                       style={{color: '#121212', fontWeight: 500, lineHeight: '52px'}}>
-                         Your Pathway to financial future</motion.h1>
+                         Your Pathway to financial future</h1>
                      <p className="mt-4 faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
 
                      <div className="mt-5">

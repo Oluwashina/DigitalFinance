@@ -361,8 +361,8 @@ Licence Restrictions has the meaning given to it in clause 4;
                              </li>
 
                              {/* seventh list */}
-                             <li className="terms-head">
-                                 <h6>TAXES</h6>
+                             <li>
+                                 <h6 className="terms-head">TAXES</h6>
                                  <h6>7.1</h6>
                                  <div className="terms-txt">
                                      <p>All payments to be made by you in connection with these Terms and Conditions or any Loan provided to you by Monéé are calculated without regard to any taxes payable by you. If any taxes are payable in connection with the payments, you must ensure that you pay such taxes and that you pay to Monéé such additional amounts as will result in Monéé receiving the full amount it would have received had no such taxes been applicable to the payments</p>
