@@ -3,6 +3,31 @@ import Navbar from '../../Navbar/navbar'
 import Header from '../Header/header'
 
 const Faq = () =>{
+
+  const data = [
+    { id: 1, 
+      question: "What is the major thing?",
+      answer: "Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon."
+    },
+    { 
+      id: 2,
+      question: "What is the less travel thing?",
+      answer: "Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon."
+     },
+    { id: 3, 
+      question: "How is this useful",
+      answer: "Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon."   
+    },
+    { id: 4,
+      question: "Is this the best thing for me?",
+      answer: "Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon."   
+    },
+    { id: 5, 
+      question: "What is the major purpose of this?",
+      answer: "Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon."   
+    }  
+  ];
+
     return(
         <>
             <Navbar />
@@ -12,51 +37,18 @@ const Faq = () =>{
              <section>
               <div className="container" style={{padding: '70px 30px'}}>
 
-                  <div className="row">
-                      <div className="col-lg-5 ">
-                        <h6 className="faq_question">What is the major thing?</h6>
-                      </div>
-                      <div className="col-lg-7">
-                        <p className="faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
-                      </div>
-                  </div>
-
-                  <div className="row mt-4">
-                    <div className="col-lg-5">
-                      <h6 className="faq_question">What is the less travel thing?</h6>
-                    </div>
-                    <div className="col-lg-7 faq_answer">
-                      <p className="faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
-                    </div>
-                </div>
-
-                <div className="row mt-4">
-                    <div className="col-lg-5">
-                      <h6 className="faq_question">How is this useful?</h6>
-                    </div>
-                    <div className="col-lg-7 ">
-                      <p className="faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
-                    </div>
-                </div>
-
-                <div className="row mt-4">
-                    <div className="col-lg-5">
-                      <h6 className="faq_question">Is this the best thing for me?</h6>
+                  {/* FAQ mapping */}
+                  {data.map((user) => (
+                    <div key={user.id} className="row mb-4">
+                    <div className="col-lg-5 ">
+                   <h6 className="faq_question">{user.question}</h6>
                     </div>
                     <div className="col-lg-7">
-                      <p className="faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
+                    <p className="faq_answer">{user.answer}</p>
                     </div>
                 </div>
-
-                <div className="row mt-4">
-                    <div className="col-lg-5">
-                      <h6 className="faq_question">What is the major purpose of this?</h6>
-                    </div>
-                    <div className="col-lg-7">
-                      <p className="faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
-                    </div>
-                </div>
-                
+                  ))}             
+              
               </div>
           </section>
         </>

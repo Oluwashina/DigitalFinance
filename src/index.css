@@ -216,6 +216,29 @@ p{
 }
 /* end of FAQ page styles */
 
+/* Styles for Terms and conditions section */
+.allterms {
+  margin-top: 20px;
+}
+.terms-txt{
+  line-height: 1.6;    
+  color: #516c82;
+  font-weight: 580;
+  line-height: 24px;
+  font-family: 'Futura';
+  margin-bottom: 20px;
+}
+
+ul.terms-list{
+  list-style: decimal;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.terms-head{
+  font-weight: 600;
+}
+
 
 /* style for back to top button */
 .to-top-container #toTop {
@@ -246,6 +269,8 @@ p{
   background-color: #dd0000;
 }
 
+
+/* ANIMATIONS  */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -256,7 +281,9 @@ p{
 }
 
 
-/* Medis Query styles */
+
+
+/* Media Query styles */
 @media (max-width: 768px){
   
   .invest_image{

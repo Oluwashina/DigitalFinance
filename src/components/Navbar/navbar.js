@@ -26,13 +26,13 @@ const Navbar = () =>{
                     </li>
                     
                     <li className="nav-item px-lg-4 py-lg-0 py-3">
-                        <NavLink className="nav-link" to="/" style={{color: '#990000', fontWeight: 600,
+                        <a className="nav-link" href="http://dignity.surge.sh/app/signup" style={{color: '#990000', fontWeight: 600,
                          border: '1px solid #990000', width: 143, height: 44, textAlign: 'center'}}
-                         >Sign Up</NavLink>
+                         >Sign Up</a>
                     </li>
                     <li className="nav-item px-lg-1 py-lg-0 py-1">
-                        <NavLink className="nav-link login" to="/" style={{color: 'white', backgroundColor: '#dd0000',
-                        width: 143, height: 44, fontWeight: 600, textAlign: 'center'}}>Login</NavLink>
+                        <a className="nav-link login" href="http://dignity.surge.sh/" style={{color: 'white', backgroundColor: '#dd0000',
+                        width: 143, height: 44, fontWeight: 600, textAlign: 'center'}}>Login</a>
                     </li>
                 </ul>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import head_bg from './img/head_bg.png'
 import {Link, NavLink} from 'react-router-dom'
+import {motion} from 'framer-motion'
 
 
 const SectionOne = () =>{
@@ -32,13 +33,13 @@ const SectionOne = () =>{
                                 </li>
                                 
                                 <li className="nav-item px-lg-4 py-lg-0 py-3">
-                                    <NavLink className="nav-link" to="/" style={{color: '#990000', fontWeight: 600,
+                                    <a className="nav-link" href="http://dignity.surge.sh/app/signup" style={{color: '#990000', fontWeight: 600,
                                     border: '1px solid #990000', width: 143, height: 44, textAlign: 'center'}}
-                                    >Sign Up</NavLink>
+                                    >Sign Up</a>
                                 </li>
                                 <li className="nav-item px-lg-1 py-lg-0 py-1">
-                                    <NavLink className="nav-link login" to="/" style={{color: 'white', backgroundColor: '#dd0000',
-                                    width: 143, height: 44, fontWeight: 600, textAlign: 'center'}}>Login</NavLink>
+                                    <a className="nav-link login" href="http://dignity.surge.sh/" style={{color: 'white', backgroundColor: '#dd0000',
+                                    width: 143, height: 44, fontWeight: 600, textAlign: 'center'}}>Login</a>
                                 </li>
                             </ul>
                          </div>
@@ -52,7 +53,10 @@ const SectionOne = () =>{
               {/* Title section */}
               <div>
                  <div className="hero_contain">
-                     <h1 style={{color: '#121212', fontWeight: 500, lineHeight: '52px'}}>Your Pathway to financial future</h1>
+                     <motion.h1
+                     animate={{fontSize: 50, color: '#dd0000'}}
+                      style={{color: '#121212', fontWeight: 500, lineHeight: '52px'}}>
+                         Your Pathway to financial future</motion.h1>
                      <p className="mt-4 faq_answer">Recharge airtime on any network, pay bills for all your favourite services and transfer money, all at the lowest possible cost with Carbon.</p>
 
                      <div className="mt-5">
@@ -83,13 +87,13 @@ const SectionOne = () =>{
                     </li>
                     
                     <li className="nav-item px-lg-4">
-                        <NavLink className="nav-link" to="/" style={{color: '#fff', fontWeight: 500,
+                        <a className="nav-link" href="http://dignity.surge.sh/app/signup" style={{color: '#fff', fontWeight: 500,
                          border: '1px solid #fff', width: 143, height: 44, textAlign: 'center'}}
-                         >Sign Up</NavLink>
+                         >Sign Up</a>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link login" to="/" style={{color: '#dd0000', backgroundColor: '#fff',
-                        width: 143, height: 44, fontWeight: 500, textAlign: 'center'}}>Login</NavLink>
+                        <a className="nav-link login" href="http://dignity.surge.sh/" style={{color: '#dd0000', backgroundColor: '#fff',
+                        width: 143, height: 44, fontWeight: 500, textAlign: 'center'}}>Login</a>
                     </li>
                 </ul>
                      
