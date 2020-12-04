@@ -337,7 +337,7 @@ Licence Restrictions has the meaning given to it in clause 4;
 
                              {/* sixth list */}
                              <li>
-                                 <h6>STATEMENTS</h6>
+                                 <h6 className="terms-head">STATEMENTS</h6>
                                  <h6>6.1</h6>
                                  <div className="terms-txt">
                                      <p>A statement and activity report in respect of your Account will be made available on Request. it is also available via the Monéé App. Requests shall be made via our e-mail address: support@Monéé.com or via the contact link available on the App.</p>
